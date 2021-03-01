@@ -8,7 +8,7 @@ SRC = src
 CPU = $(SRC)/cpu
 CPU_SOURCES = cpu.cpp
 
-SOURCES = src/renderer.cpp src/main.cpp #$(patsubst %.cpp, $(CPU)/%.cpp, $(CPU_SOURCES))
+SOURCES = src/renderer.cpp src/Grid.cpp src/FluidSimulator.cpp src/main.cpp #$(patsubst %.cpp, $(CPU)/%.cpp, $(CPU_SOURCES))
 INCS	= -lsfml-graphics -lsfml-window -lsfml-system
 LIBS	= 
 
